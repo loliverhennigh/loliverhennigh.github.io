@@ -9,6 +9,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+
 p, li {
   font-size: 16px;  
   line-height: 2;
@@ -17,13 +23,13 @@ p, li {
 
 
 html {
-  background-color: #00539F;
+  background-color: #483D8B;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: #F0F8FF;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
@@ -31,11 +37,31 @@ body {
 h1 {
   margin: 0;
   padding: 20px 0;  
-  color: #00539F;
   text-shadow: 3px 3px 1px black;
+  color: #483D8B;
 }
+
+h2 {
+  margin: 0;
+  padding: 20px 0;  
+  color: #483D8B;
+}
+
 
 img {
   display: block;
   margin: 0 auto;
 }
+
+.button {
+    background-color: #483D8B;
+    border: none;
+    color: #F0F8FF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block; */
+    display: table;
+    font-size: 16px;
+}
+
