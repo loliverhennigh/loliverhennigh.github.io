@@ -10,8 +10,52 @@
   <body>
     <h1>My Empty Web Page!</h1>
 
-    
-    <p>This page doesn't have a thing. There is this <a href="./wedding_page.html">Link</a> to my wedding page though.</p>
+    <button onclick="myFunction()">Espanol</button>
+
+     
+    <div id="Tengish">
+      <h2>Hennigh-Lemus Wedding</h2>
+      <p> You are invited to the Hennigh-Lemus Wedding!. Come celebrate with us on april 28th at 4:00 pm.</p>
+      <h2>Location</h2>
+      <p> The wedding will take place in Tulum, Quintana Roo Mexico.</p>
+      <h2>How to get there?</h2>
+      <p> The best way to get to there is to fly into the Cancun International Airpoint. Tulum is one hour and 30 minute drive away from the airport. There are many options for doing this such as Taxis, Buses and Rental Cars. We recomend planning with friends and getting a Rental Car together.</p>
+      <h2>What to Bring</h2>
+      <p> Tulum is in a tropical rainforest next to the beach so be sure to bring your bikini, towel, and hot weather clothes.</p>
+      <h2>Gifts</h2>
+      <p> We won't have very much room in our luggage so we are asking for no gifts. Your presence at our wedding is gift enough!</p>
+      <h2>Where to stay</h2>
+      <p> There are all kind of hotels in Tulum. If you are looking for something on the beach we recommend this area. You can also find more affordable options on Airbnb.</p>
+      <p> The ceremony will be at this location which is around a 20 minute drive from Tulum so keep that in mind.</p>
+      <h2>The day after the wedding.</h2>
+      <p> On Sunday we are planning to do some activities like swimming at the beach, drinking beer and maybe visiting a cenote.</p>
+      <h2>RSVP</h2>
+      <p> If you choose to join us in this celebration please respond to this email (hennighlemuswedding@gmail.com) and let us know if you are planning to bring a plus one. If you have any questions direct them to this email as well. Please respond before April 7th</p>
+    </div>
+    <div id="Tspanish">
+      <p>This page doesn't have a thing.</p>
+    </div>
+
+
+   
+<script>
+
+var spa = document.getElementById("Tspanish");
+spa.style.display = "none"
+
+function myFunction() {
+    var eng = document.getElementById("Tengish");
+    var spa = document.getElementById("Tspanish");
+    if (eng.style.display === "none") {
+        eng.style.display = "block";
+        spa.style.display = "none";
+    } else {
+        eng.style.display = "none";
+        spa.style.display = "block";
+    }
+}
+</script>
+ 
 
   </body>
 </html>
