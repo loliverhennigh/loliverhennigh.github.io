@@ -16,8 +16,20 @@ function log(msg) {
     msg_node.appendChild(document.createTextNode(msg));
 }
 
+function displayLog() {
+    var mes = document.getElementById("messages");
+    var but = document.getElementById("Logb");
+    if (mes.style.display === "none"){
+        mes.style.display = "block";
+        but.innerHTML = "Display Log Off";
+    } else {
+        mes.style.display = "none";
+        but.innerHTML = "Display Log On";
+    }
+}
+
 async function loadImage() {
-    let imageData = await WebDNN.Image.getImageArray(document.getElementById("image_url").value, {dstW: 224, dstH: 224});
+    let imageData = await WebDNN.Image.getImageArray(document.getElementById('file'), {dstW: 224, dstH: 224});
     WebDNN.Image.setImageArrayToCanvas(imageData, 224, 224, document.getElementById('input_image'));
 
     document.getElementById('run_button').disabled = false;
@@ -63,12 +75,14 @@ async function run() {
     let out_vec = runner.outputs[0].toActual();
     let top_labels = WebDNN.Math.argmax(out_vec, 5);
 
-    let predicted_str = 'Predicted:';
+    let predicted_str = 'Predicted: <br>';
     for (let j = 0; j < top_labels.length; j++) {
-        predicted_str += ` ${top_labels[j]}(${imagenet_labels[top_labels[j]]})`;
+        predicted_str += `${top_labels[j]}` 
+        predicted_str += ': '
+        predicted_str += `${imagenet_labels[top_labels[j]]}` + ' ' 
+        predicted_str += `(${Math.floor(out_vec[top_labels[j]] * 100)}%)`;
+        predicted_str += '<br>';
     }
-    log(predicted_str);
-
-    console.log('output vector: ', out_vec);
-    log(`Total Elapsed Time[ms/image]: ${elapsed_time.toFixed(2)}`);
+    
+    document.getElementById('result').innerHTML = predicted_str;
 }

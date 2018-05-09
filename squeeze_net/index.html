@@ -2,11 +2,13 @@
 <html>
 
 <head>
-    <title>SqueezeNet conversion WebDNN example</title>
+    <title>Mineral Classificaton</title>
     <meta charset="utf-8">
     <script src="webdnn.js"></script>
     <script src="imagenet_labels.js"></script>
     <script src="script.js"></script>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 </head>
 
@@ -20,6 +22,7 @@
     </div>
 </div>
 
+
 <div class="container my-5">
     <div class="row my-3">
         <div class="col-12 col-md-auto">
@@ -29,10 +32,8 @@
         <div class="col-12 col-md container-fluid">
             <div class="row my-2 form-inline">
                 <div class="form-group">
-                    <label class="mr-3" for="image_url">Image URL</label>
-                    <input class="form-control mr-3" type="text" id="image_url" value="school_bus.jpg" size="60">
                 </div>
-                <button class="btn" type="button" onclick="loadImage()">Load</button>
+                <input id="file" type="file" onchange="loadImage()"><br>
             </div>
 
             <div class="row my-2 form-inline">
@@ -81,15 +82,32 @@
             <div class="row mt-5">
                 <button class="btn btn-block btn-primary" id="run_button" type="button" onclick="run_entry()" disabled>Run</button>
             </div>
+
+            <div id="result">
+                (Classification result will be displayed here)
+            </div>
+ 
         </div>
     </div>
 </div>
 
 <div class="container my-5">
+    <button class="button" onclick="displayLog()" id="Logb">Display Log On</button>
     <div class="row">
-        <div class="col-12" id="messages"></div>
+        <div class="col-12" id="messages" ></div>
     </div>
 </div>
+   
+<script>
+
+var mes = document.getElementById("messages");
+mes.style.display = "none"
+
+</script>
+
+
+
+
 
 </body>
 
