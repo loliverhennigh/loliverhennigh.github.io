@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 </head>
 
-<body onload="loadImage()">
+<body onload="loadRandImage()">
 
 <div class="container my-5">
     <div class="row my-3">
@@ -27,6 +27,7 @@
     <div class="row my-3">
         <div class="col-12 col-md-auto">
             <canvas id="input_image" width="224" height="224"></canvas>
+            <canvas id="name_image" width="224" height="224"></canvas>
         </div>
 
         <div class="col-12 col-md container-fluid">
@@ -34,6 +35,7 @@
                 <div class="form-group">
                 </div>
                 <input id="file" type="file" onchange="loadImage()"><br>
+                <button class="button" onclick="loadRandImage()" id="randImg">Random Image</button>
             </div>
 
             <div class="row my-2 form-inline">
