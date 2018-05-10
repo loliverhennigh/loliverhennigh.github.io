@@ -46,7 +46,7 @@ async function loadRandImage() {
     let min_index = Math.floor((Math.random() * imagenet_labels.length) + 1); 
     let img_index = Math.floor((Math.random() * 4) + 0); 
     let mineral_name = imagenet_labels[min_index]
-    let filename = '/data/' + mineral_name + '_' + ("000" + img_index).slice (-4) + '.jpg';
+    let filename = '/squeeze_net/data/' + mineral_name + '_' + ("000" + img_index).slice (-4) + '.jpg';
     console.log(filename)
     let imageData = await WebDNN.Image.getImageArray(filename, {dstW: 224, dstH: 224});
     WebDNN.Image.setImageArrayToCanvas(imageData, 224, 224, document.getElementById('input_image'));
