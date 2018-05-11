@@ -3,9 +3,28 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -36,8 +55,8 @@ body {
 
 h1 {
   margin: 0;
-  padding: 20px 0;  
-  text-shadow: 3px 3px 1px black;
+  padding: 0px 0;  
+  text-shadow: 1px 1px 1px black;
   color: #483D8B;
 }
 
@@ -53,15 +72,54 @@ img {
   margin: 0 auto;
 }
 
-.button {
+.button_rand {
     background-color: #483D8B;
     border: none;
     color: #F0F8FF;
-    padding: 15px 32px;
+    padding: 5px 30px;
     text-align: center;
     text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
     /*display: inline-block; */
-    display: table;
-    font-size: 16px;
+    /*display: table;*/
+    font-size: 15px;
 }
+
+.button_input {
+    background-color: #483D8B;
+    border: none;
+    color: #F0F8FF;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: inline-block; */
+    /*display: table;*/
+    font-size: 15px;
+}
+
+.button_run {
+    background-color: #28A828;
+    border: none;
+    color: #F0F8FF;
+    padding: 0px 60px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: inline-block; */
+    /*display: table;*/
+    font-size: 25px;
+}
+
+.results {
+    text-align: center;
+    /*display: inline-block; */
+    /*display: table;*/
+    font-size: 10px;
+}
+
+
 
