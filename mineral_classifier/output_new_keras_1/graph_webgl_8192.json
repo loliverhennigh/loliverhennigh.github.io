@@ -1,5 +1,5 @@
 {
-  "converted_at": 1526069869,
+  "converted_at": 1527366083,
   "inputs": [
     "Variable92"
   ],
@@ -10,92 +10,44 @@
     "static": {
       "size": -1,
       "allocations": {
-        "Variable472": {
-          "name": "Variable472",
+        "Variable466": {
+          "name": "Variable466",
           "offset": -1,
-          "size": 169344,
-          "width": 27,
-          "height": 6272,
+          "size": 1,
+          "width": 1,
+          "height": 1,
           "channel_mode": "R"
         },
-        "ConstantVariable201": {
-          "name": "ConstantVariable201",
+        "Variable543": {
+          "name": "Variable543",
           "offset": -1,
-          "size": 32768,
-          "width": 128,
-          "height": 64,
-          "channel_mode": "RGBA"
-        },
-        "ConstantVariable218": {
-          "name": "ConstantVariable218",
-          "offset": -1,
-          "size": 1024,
-          "width": 4,
-          "height": 64,
-          "channel_mode": "RGBA"
-        },
-        "Variable92": {
-          "name": "Variable92",
-          "offset": -1,
-          "size": 155648,
+          "size": 16384,
           "width": 8192,
-          "height": 19,
+          "height": 2,
           "channel_mode": "R"
         },
-        "Variable168": {
-          "name": "Variable168",
-          "offset": -1,
-          "size": 100352,
-          "width": 128,
-          "height": 196,
-          "channel_mode": "RGBA"
-        },
-        "ConstantVariable73": {
-          "name": "ConstantVariable73",
-          "offset": -1,
-          "size": 64,
-          "width": 64,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable75": {
-          "name": "ConstantVariable75",
-          "offset": -1,
-          "size": 64,
-          "width": 64,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable69": {
-          "name": "ConstantVariable69",
-          "offset": -1,
-          "size": 64,
-          "width": 64,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable119": {
-          "name": "ConstantVariable119",
+        "Variable181": {
+          "name": "Variable181",
           "offset": -1,
           "size": 46,
           "width": 46,
           "height": 1,
           "channel_mode": "R"
         },
-        "ConstantVariable213": {
-          "name": "ConstantVariable213",
+        "ConstantVariable115": {
+          "name": "ConstantVariable115",
           "offset": -1,
-          "size": 2048,
-          "width": 32,
-          "height": 16,
-          "channel_mode": "RGBA"
+          "size": 256,
+          "width": 256,
+          "height": 1,
+          "channel_mode": "R"
         },
-        "ConstantVariable214": {
-          "name": "ConstantVariable214",
+        "Variable161": {
+          "name": "Variable161",
           "offset": -1,
-          "size": 9216,
-          "width": 36,
-          "height": 64,
+          "size": 12544,
+          "width": 16,
+          "height": 196,
           "channel_mode": "RGBA"
         },
         "ConstantVariable217": {
@@ -122,37 +74,45 @@
           "height": 1,
           "channel_mode": "R"
         },
-        "ConstantVariable225": {
-          "name": "ConstantVariable225",
+        "ConstantVariable218": {
+          "name": "ConstantVariable218",
           "offset": -1,
-          "size": 16384,
-          "width": 16,
-          "height": 256,
+          "size": 1024,
+          "width": 4,
+          "height": 64,
           "channel_mode": "RGBA"
         },
-        "ConstantVariable208": {
-          "name": "ConstantVariable208",
+        "Variable450": {
+          "name": "Variable450",
           "offset": -1,
-          "size": 36864,
-          "width": 72,
-          "height": 128,
+          "size": 112896,
+          "width": 144,
+          "height": 196,
           "channel_mode": "RGBA"
         },
-        "Variable475": {
-          "name": "Variable475",
+        "ConstantVariable73": {
+          "name": "ConstantVariable73",
           "offset": -1,
-          "size": 401408,
-          "width": 8192,
-          "height": 49,
-          "channel_mode": "R"
-        },
-        "ConstantVariable117": {
-          "name": "ConstantVariable117",
-          "offset": -1,
-          "size": 256,
-          "width": 256,
+          "size": 64,
+          "width": 64,
           "height": 1,
           "channel_mode": "R"
+        },
+        "Variable177": {
+          "name": "Variable177",
+          "offset": -1,
+          "size": 57344,
+          "width": 8192,
+          "height": 7,
+          "channel_mode": "R"
+        },
+        "Variable168": {
+          "name": "Variable168",
+          "offset": -1,
+          "size": 100352,
+          "width": 128,
+          "height": 196,
+          "channel_mode": "RGBA"
         },
         "ConstantVariable216": {
           "name": "ConstantVariable216",
@@ -160,38 +120,6 @@
           "size": 1728,
           "width": 27,
           "height": 64,
-          "channel_mode": "R"
-        },
-        "ConstantVariable199": {
-          "name": "ConstantVariable199",
-          "offset": -1,
-          "size": 23552,
-          "width": 128,
-          "height": 46,
-          "channel_mode": "RGBA"
-        },
-        "Variable473": {
-          "name": "Variable473",
-          "offset": -1,
-          "size": 169344,
-          "width": 27,
-          "height": 6272,
-          "channel_mode": "R"
-        },
-        "ConstantVariable215": {
-          "name": "ConstantVariable215",
-          "offset": -1,
-          "size": 1728,
-          "width": 27,
-          "height": 64,
-          "channel_mode": "R"
-        },
-        "Variable474": {
-          "name": "Variable474",
-          "offset": -1,
-          "size": 401408,
-          "width": 8192,
-          "height": 49,
           "channel_mode": "R"
         },
         "ConstantVariable200": {
@@ -202,6 +130,38 @@
           "height": 256,
           "channel_mode": "RGBA"
         },
+        "ConstantVariable213": {
+          "name": "ConstantVariable213",
+          "offset": -1,
+          "size": 2048,
+          "width": 32,
+          "height": 16,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable75": {
+          "name": "ConstantVariable75",
+          "offset": -1,
+          "size": 64,
+          "width": 64,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable214": {
+          "name": "ConstantVariable214",
+          "offset": -1,
+          "size": 9216,
+          "width": 36,
+          "height": 64,
+          "channel_mode": "RGBA"
+        },
+        "Variable182": {
+          "name": "Variable182",
+          "offset": -1,
+          "size": 46,
+          "width": 46,
+          "height": 1,
+          "channel_mode": "R"
+        },
         "ConstantVariable71": {
           "name": "ConstantVariable71",
           "offset": -1,
@@ -210,77 +170,45 @@
           "height": 1,
           "channel_mode": "R"
         },
-        "Variable94": {
-          "name": "Variable94",
+        "ConstantVariable69": {
+          "name": "ConstantVariable69",
           "offset": -1,
-          "size": 802816,
-          "width": 8192,
-          "height": 98,
-          "channel_mode": "R"
-        },
-        "Variable161": {
-          "name": "Variable161",
-          "offset": -1,
-          "size": 12544,
-          "width": 16,
-          "height": 196,
-          "channel_mode": "RGBA"
-        },
-        "ConstantVariable115": {
-          "name": "ConstantVariable115",
-          "offset": -1,
-          "size": 256,
-          "width": 256,
+          "size": 64,
+          "width": 64,
           "height": 1,
           "channel_mode": "R"
         },
-        "Variable381": {
-          "name": "Variable381",
+        "ConstantVariable219": {
+          "name": "ConstantVariable219",
           "offset": -1,
-          "size": 802816,
-          "width": 8192,
-          "height": 98,
-          "channel_mode": "R"
-        },
-        "Variable450": {
-          "name": "Variable450",
-          "offset": -1,
-          "size": 112896,
-          "width": 144,
-          "height": 196,
-          "channel_mode": "RGBA"
-        },
-        "ConstantVariable222": {
-          "name": "ConstantVariable222",
-          "offset": -1,
-          "size": 9216,
-          "width": 12,
-          "height": 192,
-          "channel_mode": "RGBA"
-        },
-        "Variable430": {
-          "name": "Variable430",
-          "offset": -1,
-          "size": 84672,
-          "width": 108,
-          "height": 196,
-          "channel_mode": "RGBA"
-        },
-        "Variable543": {
-          "name": "Variable543",
-          "offset": -1,
-          "size": 16384,
-          "width": 8192,
-          "height": 2,
-          "channel_mode": "R"
-        },
-        "Variable99": {
-          "name": "Variable99",
-          "offset": -1,
-          "size": 50176,
+          "size": 1024,
           "width": 4,
-          "height": 3136,
+          "height": 64,
           "channel_mode": "RGBA"
+        },
+        "Variable467": {
+          "name": "Variable467",
+          "offset": -1,
+          "size": 1,
+          "width": 1,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable215": {
+          "name": "ConstantVariable215",
+          "offset": -1,
+          "size": 1728,
+          "width": 27,
+          "height": 64,
+          "channel_mode": "R"
+        },
+        "Variable469": {
+          "name": "Variable469",
+          "offset": -1,
+          "size": 46,
+          "width": 46,
+          "height": 1,
+          "channel_mode": "R"
         },
         "Variable138": {
           "name": "Variable138",
@@ -290,13 +218,13 @@
           "height": 196,
           "channel_mode": "RGBA"
         },
-        "Variable509": {
-          "name": "Variable509",
+        "ConstantVariable211": {
+          "name": "ConstantVariable211",
           "offset": -1,
-          "size": 204800,
-          "width": 8192,
-          "height": 25,
-          "channel_mode": "R"
+          "size": 4096,
+          "width": 32,
+          "height": 32,
+          "channel_mode": "RGBA"
         },
         "Variable424": {
           "name": "Variable424",
@@ -304,62 +232,6 @@
           "size": 16384,
           "width": 8192,
           "height": 2,
-          "channel_mode": "R"
-        },
-        "ConstantVariable93": {
-          "name": "ConstantVariable93",
-          "offset": -1,
-          "size": 128,
-          "width": 128,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable97": {
-          "name": "ConstantVariable97",
-          "offset": -1,
-          "size": 192,
-          "width": 192,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "Variable95": {
-          "name": "Variable95",
-          "offset": -1,
-          "size": 802816,
-          "width": 8192,
-          "height": 98,
-          "channel_mode": "R"
-        },
-        "ConstantVariable95": {
-          "name": "ConstantVariable95",
-          "offset": -1,
-          "size": 48,
-          "width": 48,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "Variable117": {
-          "name": "Variable117",
-          "offset": -1,
-          "size": 100352,
-          "width": 32,
-          "height": 784,
-          "channel_mode": "RGBA"
-        },
-        "ConstantVariable212": {
-          "name": "ConstantVariable212",
-          "offset": -1,
-          "size": 9216,
-          "width": 36,
-          "height": 64,
-          "channel_mode": "RGBA"
-        },
-        "Variable101": {
-          "name": "Variable101",
-          "offset": -1,
-          "size": 204800,
-          "width": 8192,
-          "height": 25,
           "channel_mode": "R"
         },
         "ConstantVariable81": {
@@ -370,13 +242,13 @@
           "height": 1,
           "channel_mode": "R"
         },
-        "ConstantVariable220": {
-          "name": "ConstantVariable220",
+        "Variable523": {
+          "name": "Variable523",
           "offset": -1,
-          "size": 4096,
-          "width": 8,
-          "height": 128,
-          "channel_mode": "RGBA"
+          "size": 32768,
+          "width": 8192,
+          "height": 4,
+          "channel_mode": "R"
         },
         "Variable140": {
           "name": "Variable140",
@@ -386,184 +258,16 @@
           "height": 2,
           "channel_mode": "R"
         },
-        "Variable123": {
-          "name": "Variable123",
+        "Variable92": {
+          "name": "Variable92",
           "offset": -1,
-          "size": 106496,
+          "size": 155648,
           "width": 8192,
-          "height": 13,
+          "height": 19,
           "channel_mode": "R"
         },
-        "ConstantVariable101": {
-          "name": "ConstantVariable101",
-          "offset": -1,
-          "size": 48,
-          "width": 48,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable211": {
-          "name": "ConstantVariable211",
-          "offset": -1,
-          "size": 4096,
-          "width": 32,
-          "height": 32,
-          "channel_mode": "RGBA"
-        },
-        "Variable533": {
-          "name": "Variable533",
-          "offset": -1,
-          "size": 16384,
-          "width": 8192,
-          "height": 2,
-          "channel_mode": "R"
-        },
-        "Variable519": {
-          "name": "Variable519",
-          "offset": -1,
-          "size": 106496,
-          "width": 8192,
-          "height": 13,
-          "channel_mode": "R"
-        },
-        "ConstantVariable209": {
-          "name": "ConstantVariable209",
-          "offset": -1,
-          "size": 8192,
-          "width": 64,
-          "height": 32,
-          "channel_mode": "RGBA"
-        },
-        "ConstantVariable223": {
-          "name": "ConstantVariable223",
-          "offset": -1,
-          "size": 9216,
-          "width": 12,
-          "height": 192,
-          "channel_mode": "RGBA"
-        },
-        "Variable96": {
-          "name": "Variable96",
-          "offset": -1,
-          "size": 200704,
-          "width": 16,
-          "height": 3136,
-          "channel_mode": "RGBA"
-        },
-        "Variable141": {
-          "name": "Variable141",
-          "offset": -1,
-          "size": 9408,
-          "width": 12,
-          "height": 196,
-          "channel_mode": "RGBA"
-        },
-        "Variable384": {
-          "name": "Variable384",
-          "offset": -1,
-          "size": 57344,
-          "width": 8192,
-          "height": 7,
-          "channel_mode": "R"
-        },
-        "Variable427": {
-          "name": "Variable427",
-          "offset": -1,
-          "size": 40960,
-          "width": 8192,
-          "height": 5,
-          "channel_mode": "R"
-        },
-        "ConstantVariable87": {
-          "name": "ConstantVariable87",
-          "offset": -1,
-          "size": 128,
-          "width": 128,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "Variable404": {
-          "name": "Variable404",
-          "offset": -1,
-          "size": 32768,
-          "width": 8192,
-          "height": 4,
-          "channel_mode": "R"
-        },
-        "ConstantVariable202": {
-          "name": "ConstantVariable202",
-          "offset": -1,
-          "size": 147456,
-          "width": 144,
-          "height": 256,
-          "channel_mode": "RGBA"
-        },
-        "Variable98": {
-          "name": "Variable98",
-          "offset": -1,
-          "size": 57344,
-          "width": 8192,
-          "height": 7,
-          "channel_mode": "R"
-        },
-        "Variable143": {
-          "name": "Variable143",
-          "offset": -1,
-          "size": 40960,
-          "width": 8192,
-          "height": 5,
-          "channel_mode": "R"
-        },
-        "Variable119": {
-          "name": "Variable119",
-          "offset": -1,
-          "size": 32768,
-          "width": 8192,
-          "height": 4,
-          "channel_mode": "R"
-        },
-        "ConstantVariable85": {
-          "name": "ConstantVariable85",
-          "offset": -1,
-          "size": 128,
-          "width": 128,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "Variable144": {
-          "name": "Variable144",
-          "offset": -1,
-          "size": 40960,
-          "width": 8192,
-          "height": 5,
-          "channel_mode": "R"
-        },
-        "ConstantVariable210": {
-          "name": "ConstantVariable210",
-          "offset": -1,
-          "size": 36864,
-          "width": 72,
-          "height": 128,
-          "channel_mode": "RGBA"
-        },
-        "Variable513": {
-          "name": "Variable513",
-          "offset": -1,
-          "size": 57344,
-          "width": 8192,
-          "height": 7,
-          "channel_mode": "R"
-        },
-        "Variable523": {
-          "name": "Variable523",
-          "offset": -1,
-          "size": 32768,
-          "width": 8192,
-          "height": 4,
-          "channel_mode": "R"
-        },
-        "ConstantVariable111": {
-          "name": "ConstantVariable111",
+        "ConstantVariable117": {
+          "name": "ConstantVariable117",
           "offset": -1,
           "size": 256,
           "width": 256,
@@ -578,36 +282,60 @@
           "height": 784,
           "channel_mode": "RGBA"
         },
-        "Variable177": {
-          "name": "Variable177",
-          "offset": -1,
-          "size": 57344,
-          "width": 8192,
-          "height": 7,
-          "channel_mode": "R"
-        },
-        "Variable147": {
-          "name": "Variable147",
+        "Variable143": {
+          "name": "Variable143",
           "offset": -1,
           "size": 40960,
           "width": 8192,
           "height": 5,
           "channel_mode": "R"
         },
-        "ConstantVariable219": {
-          "name": "ConstantVariable219",
+        "Variable509": {
+          "name": "Variable509",
           "offset": -1,
-          "size": 1024,
-          "width": 4,
-          "height": 64,
+          "size": 204800,
+          "width": 8192,
+          "height": 25,
+          "channel_mode": "R"
+        },
+        "Variable96": {
+          "name": "Variable96",
+          "offset": -1,
+          "size": 200704,
+          "width": 16,
+          "height": 3136,
           "channel_mode": "RGBA"
         },
-        "Variable534": {
-          "name": "Variable534",
+        "Variable123": {
+          "name": "Variable123",
           "offset": -1,
-          "size": 81920,
+          "size": 106496,
           "width": 8192,
-          "height": 10,
+          "height": 13,
+          "channel_mode": "R"
+        },
+        "Variable427": {
+          "name": "Variable427",
+          "offset": -1,
+          "size": 40960,
+          "width": 8192,
+          "height": 5,
+          "channel_mode": "R"
+        },
+        "ConstantVariable221": {
+          "name": "ConstantVariable221",
+          "offset": -1,
+          "size": 4096,
+          "width": 8,
+          "height": 128,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable79": {
+          "name": "ConstantVariable79",
+          "offset": -1,
+          "size": 64,
+          "width": 64,
+          "height": 1,
           "channel_mode": "R"
         },
         "Variable102": {
@@ -618,27 +346,67 @@
           "height": 25,
           "channel_mode": "R"
         },
-        "ConstantVariable91": {
-          "name": "ConstantVariable91",
+        "ConstantVariable205": {
+          "name": "ConstantVariable205",
+          "offset": -1,
+          "size": 18432,
+          "width": 96,
+          "height": 48,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable208": {
+          "name": "ConstantVariable208",
+          "offset": -1,
+          "size": 36864,
+          "width": 72,
+          "height": 128,
+          "channel_mode": "RGBA"
+        },
+        "Variable533": {
+          "name": "Variable533",
+          "offset": -1,
+          "size": 16384,
+          "width": 8192,
+          "height": 2,
+          "channel_mode": "R"
+        },
+        "ConstantVariable210": {
+          "name": "ConstantVariable210",
+          "offset": -1,
+          "size": 36864,
+          "width": 72,
+          "height": 128,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable99": {
+          "name": "ConstantVariable99",
+          "offset": -1,
+          "size": 192,
+          "width": 192,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "Variable101": {
+          "name": "Variable101",
+          "offset": -1,
+          "size": 204800,
+          "width": 8192,
+          "height": 25,
+          "channel_mode": "R"
+        },
+        "Variable122": {
+          "name": "Variable122",
+          "offset": -1,
+          "size": 106496,
+          "width": 8192,
+          "height": 13,
+          "channel_mode": "R"
+        },
+        "ConstantVariable93": {
+          "name": "ConstantVariable93",
           "offset": -1,
           "size": 128,
           "width": 128,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "Variable181": {
-          "name": "Variable181",
-          "offset": -1,
-          "size": 46,
-          "width": 46,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable109": {
-          "name": "ConstantVariable109",
-          "offset": -1,
-          "size": 256,
-          "width": 256,
           "height": 1,
           "channel_mode": "R"
         },
@@ -650,59 +418,27 @@
           "height": 3136,
           "channel_mode": "RGBA"
         },
-        "Variable122": {
-          "name": "Variable122",
+        "Variable141": {
+          "name": "Variable141",
           "offset": -1,
-          "size": 106496,
-          "width": 8192,
-          "height": 13,
-          "channel_mode": "R"
-        },
-        "ConstantVariable107": {
-          "name": "ConstantVariable107",
-          "offset": -1,
-          "size": 64,
-          "width": 64,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "Variable148": {
-          "name": "Variable148",
-          "offset": -1,
-          "size": 75264,
-          "width": 96,
+          "size": 9408,
+          "width": 12,
           "height": 196,
           "channel_mode": "RGBA"
         },
-        "ConstantVariable105": {
-          "name": "ConstantVariable105",
+        "ConstantVariable103": {
+          "name": "ConstantVariable103",
           "offset": -1,
           "size": 192,
           "width": 192,
           "height": 1,
           "channel_mode": "R"
         },
-        "Variable410": {
-          "name": "Variable410",
+        "ConstantVariable101": {
+          "name": "ConstantVariable101",
           "offset": -1,
-          "size": 225792,
-          "width": 72,
-          "height": 784,
-          "channel_mode": "RGBA"
-        },
-        "ConstantVariable89": {
-          "name": "ConstantVariable89",
-          "offset": -1,
-          "size": 32,
-          "width": 32,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable99": {
-          "name": "ConstantVariable99",
-          "offset": -1,
-          "size": 192,
-          "width": 192,
+          "size": 48,
+          "width": 48,
           "height": 1,
           "channel_mode": "R"
         },
@@ -714,35 +450,59 @@
           "height": 25,
           "channel_mode": "R"
         },
-        "Variable126": {
-          "name": "Variable126",
+        "Variable144": {
+          "name": "Variable144",
           "offset": -1,
-          "size": 106496,
+          "size": 40960,
           "width": 8192,
-          "height": 13,
+          "height": 5,
           "channel_mode": "R"
         },
-        "ConstantVariable205": {
-          "name": "ConstantVariable205",
+        "ConstantVariable223": {
+          "name": "ConstantVariable223",
           "offset": -1,
-          "size": 18432,
-          "width": 96,
-          "height": 48,
+          "size": 9216,
+          "width": 12,
+          "height": 192,
           "channel_mode": "RGBA"
         },
-        "Variable127": {
-          "name": "Variable127",
+        "Variable99": {
+          "name": "Variable99",
           "offset": -1,
-          "size": 200704,
-          "width": 64,
+          "size": 50176,
+          "width": 4,
+          "height": 3136,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable204": {
+          "name": "ConstantVariable204",
+          "offset": -1,
+          "size": 82944,
+          "width": 108,
+          "height": 192,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable225": {
+          "name": "ConstantVariable225",
+          "offset": -1,
+          "size": 16384,
+          "width": 16,
+          "height": 256,
+          "channel_mode": "RGBA"
+        },
+        "Variable410": {
+          "name": "Variable410",
+          "offset": -1,
+          "size": 225792,
+          "width": 72,
           "height": 784,
           "channel_mode": "RGBA"
         },
-        "Variable182": {
-          "name": "Variable182",
+        "ConstantVariable105": {
+          "name": "ConstantVariable105",
           "offset": -1,
-          "size": 46,
-          "width": 46,
+          "size": 192,
+          "width": 192,
           "height": 1,
           "channel_mode": "R"
         },
@@ -754,20 +514,124 @@
           "height": 64,
           "channel_mode": "RGBA"
         },
-        "ConstantVariable207": {
-          "name": "ConstantVariable207",
+        "ConstantVariable107": {
+          "name": "ConstantVariable107",
           "offset": -1,
-          "size": 12288,
+          "size": 64,
           "width": 64,
-          "height": 48,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable224": {
+          "name": "ConstantVariable224",
+          "offset": -1,
+          "size": 16384,
+          "width": 16,
+          "height": 256,
           "channel_mode": "RGBA"
         },
-        "Variable466": {
-          "name": "Variable466",
+        "ConstantVariable109": {
+          "name": "ConstantVariable109",
           "offset": -1,
-          "size": 1,
-          "width": 1,
+          "size": 256,
+          "width": 256,
           "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable202": {
+          "name": "ConstantVariable202",
+          "offset": -1,
+          "size": 147456,
+          "width": 144,
+          "height": 256,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable111": {
+          "name": "ConstantVariable111",
+          "offset": -1,
+          "size": 256,
+          "width": 256,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "Variable474": {
+          "name": "Variable474",
+          "offset": -1,
+          "size": 401408,
+          "width": 8192,
+          "height": 49,
+          "channel_mode": "R"
+        },
+        "Variable430": {
+          "name": "Variable430",
+          "offset": -1,
+          "size": 84672,
+          "width": 108,
+          "height": 196,
+          "channel_mode": "RGBA"
+        },
+        "Variable473": {
+          "name": "Variable473",
+          "offset": -1,
+          "size": 169344,
+          "width": 27,
+          "height": 6272,
+          "channel_mode": "R"
+        },
+        "Variable475": {
+          "name": "Variable475",
+          "offset": -1,
+          "size": 401408,
+          "width": 8192,
+          "height": 49,
+          "channel_mode": "R"
+        },
+        "ConstantVariable97": {
+          "name": "ConstantVariable97",
+          "offset": -1,
+          "size": 192,
+          "width": 192,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "Variable98": {
+          "name": "Variable98",
+          "offset": -1,
+          "size": 57344,
+          "width": 8192,
+          "height": 7,
+          "channel_mode": "R"
+        },
+        "Variable126": {
+          "name": "Variable126",
+          "offset": -1,
+          "size": 106496,
+          "width": 8192,
+          "height": 13,
+          "channel_mode": "R"
+        },
+        "ConstantVariable201": {
+          "name": "ConstantVariable201",
+          "offset": -1,
+          "size": 32768,
+          "width": 128,
+          "height": 64,
+          "channel_mode": "RGBA"
+        },
+        "Variable127": {
+          "name": "Variable127",
+          "offset": -1,
+          "size": 200704,
+          "width": 64,
+          "height": 784,
+          "channel_mode": "RGBA"
+        },
+        "Variable147": {
+          "name": "Variable147",
+          "offset": -1,
+          "size": 40960,
+          "width": 8192,
+          "height": 5,
           "channel_mode": "R"
         },
         "Variable106": {
@@ -778,13 +642,45 @@
           "height": 3136,
           "channel_mode": "RGBA"
         },
-        "Variable467": {
-          "name": "Variable467",
+        "ConstantVariable212": {
+          "name": "ConstantVariable212",
           "offset": -1,
-          "size": 1,
-          "width": 1,
-          "height": 1,
+          "size": 9216,
+          "width": 36,
+          "height": 64,
+          "channel_mode": "RGBA"
+        },
+        "Variable384": {
+          "name": "Variable384",
+          "offset": -1,
+          "size": 57344,
+          "width": 8192,
+          "height": 7,
           "channel_mode": "R"
+        },
+        "Variable404": {
+          "name": "Variable404",
+          "offset": -1,
+          "size": 32768,
+          "width": 8192,
+          "height": 4,
+          "channel_mode": "R"
+        },
+        "Variable534": {
+          "name": "Variable534",
+          "offset": -1,
+          "size": 81920,
+          "width": 8192,
+          "height": 10,
+          "channel_mode": "R"
+        },
+        "Variable148": {
+          "name": "Variable148",
+          "offset": -1,
+          "size": 75264,
+          "width": 96,
+          "height": 196,
+          "channel_mode": "RGBA"
         },
         "ConstantVariable206": {
           "name": "ConstantVariable206",
@@ -794,56 +690,160 @@
           "height": 192,
           "channel_mode": "RGBA"
         },
-        "Variable469": {
-          "name": "Variable469",
+        "ConstantVariable199": {
+          "name": "ConstantVariable199",
+          "offset": -1,
+          "size": 23552,
+          "width": 128,
+          "height": 46,
+          "channel_mode": "RGBA"
+        },
+        "ConstantVariable119": {
+          "name": "ConstantVariable119",
           "offset": -1,
           "size": 46,
           "width": 46,
           "height": 1,
           "channel_mode": "R"
         },
-        "ConstantVariable103": {
-          "name": "ConstantVariable103",
-          "offset": -1,
-          "size": 192,
-          "width": 192,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable79": {
-          "name": "ConstantVariable79",
-          "offset": -1,
-          "size": 64,
-          "width": 64,
-          "height": 1,
-          "channel_mode": "R"
-        },
-        "ConstantVariable221": {
-          "name": "ConstantVariable221",
+        "ConstantVariable220": {
+          "name": "ConstantVariable220",
           "offset": -1,
           "size": 4096,
           "width": 8,
           "height": 128,
           "channel_mode": "RGBA"
         },
-        "ConstantVariable204": {
-          "name": "ConstantVariable204",
+        "ConstantVariable95": {
+          "name": "ConstantVariable95",
           "offset": -1,
-          "size": 82944,
-          "width": 108,
+          "size": 48,
+          "width": 48,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable85": {
+          "name": "ConstantVariable85",
+          "offset": -1,
+          "size": 128,
+          "width": 128,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable222": {
+          "name": "ConstantVariable222",
+          "offset": -1,
+          "size": 9216,
+          "width": 12,
           "height": 192,
           "channel_mode": "RGBA"
         },
-        "ConstantVariable224": {
-          "name": "ConstantVariable224",
+        "Variable94": {
+          "name": "Variable94",
           "offset": -1,
-          "size": 16384,
-          "width": 16,
-          "height": 256,
+          "size": 802816,
+          "width": 8192,
+          "height": 98,
+          "channel_mode": "R"
+        },
+        "Variable95": {
+          "name": "Variable95",
+          "offset": -1,
+          "size": 802816,
+          "width": 8192,
+          "height": 98,
+          "channel_mode": "R"
+        },
+        "Variable513": {
+          "name": "Variable513",
+          "offset": -1,
+          "size": 57344,
+          "width": 8192,
+          "height": 7,
+          "channel_mode": "R"
+        },
+        "ConstantVariable207": {
+          "name": "ConstantVariable207",
+          "offset": -1,
+          "size": 12288,
+          "width": 64,
+          "height": 48,
+          "channel_mode": "RGBA"
+        },
+        "Variable519": {
+          "name": "Variable519",
+          "offset": -1,
+          "size": 106496,
+          "width": 8192,
+          "height": 13,
+          "channel_mode": "R"
+        },
+        "Variable381": {
+          "name": "Variable381",
+          "offset": -1,
+          "size": 802816,
+          "width": 8192,
+          "height": 98,
+          "channel_mode": "R"
+        },
+        "ConstantVariable91": {
+          "name": "ConstantVariable91",
+          "offset": -1,
+          "size": 128,
+          "width": 128,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "Variable472": {
+          "name": "Variable472",
+          "offset": -1,
+          "size": 169344,
+          "width": 27,
+          "height": 6272,
+          "channel_mode": "R"
+        },
+        "Variable117": {
+          "name": "Variable117",
+          "offset": -1,
+          "size": 100352,
+          "width": 32,
+          "height": 784,
+          "channel_mode": "RGBA"
+        },
+        "Variable119": {
+          "name": "Variable119",
+          "offset": -1,
+          "size": 32768,
+          "width": 8192,
+          "height": 4,
+          "channel_mode": "R"
+        },
+        "ConstantVariable87": {
+          "name": "ConstantVariable87",
+          "offset": -1,
+          "size": 128,
+          "width": 128,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable209": {
+          "name": "ConstantVariable209",
+          "offset": -1,
+          "size": 8192,
+          "width": 64,
+          "height": 32,
           "channel_mode": "RGBA"
         },
         "ConstantVariable83": {
           "name": "ConstantVariable83",
+          "offset": -1,
+          "size": 32,
+          "width": 32,
+          "height": 1,
+          "channel_mode": "R"
+        },
+        "ConstantVariable89": {
+          "name": "ConstantVariable89",
           "offset": -1,
           "size": 32,
           "width": 32,
