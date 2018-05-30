@@ -118,8 +118,13 @@ img {
     text-align: center;
     /*display: inline-block; */
     /*display: table;*/
-    font-size: 10px;
+    font-size: 15px;
 }
 
-
+.labels {
+    text-align: center;
+    /*display: inline-block; */
+    /*display: table;*/
+    font-size: 20px;
+}
 

@@ -77,7 +77,7 @@ async function prepare_run() {
     if (!(backend_key in runners)) {
         log('Initializing and loading model');
         log(`./output_${framework_name}`, {backendOrder: backend_name});
-        let runner = await WebDNN.load(`./output_${framework_name}_31444`, {backendOrder: backend_name});
+        let runner = await WebDNN.load(`./output_${framework_name}_31445`, {backendOrder: backend_name});
         log(`Loaded backend: ${runner.backendName}, model converted from ${framework_name}`);
 
         runners[backend_key] = runner;
